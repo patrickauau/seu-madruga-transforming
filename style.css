@@ -88,7 +88,7 @@ body{
     background-size: cover;
     border-style: groove;
     border-color: blueviolet;
-    margin: 10px 220px;
+    margin: 10px 1100px;
     visibility: hidden;
 }
 
@@ -108,7 +108,7 @@ body{
     background-size: cover;
     border-style: groove;
     border-color: blueviolet;
-    margin: 210px 220px;
+    margin: 210px 1100px;
 }
 
 #mensagem:hover{
@@ -127,7 +127,7 @@ body{
     background-size: cover;
     border-style: groove;
     border-color: yellow;
-    margin: 210px 220px;
+    margin: 210px 1100px;
     visibility: hidden;
 }
 
@@ -234,7 +234,7 @@ body{
     background-size: cover;
     border-style: groove;
     border-color: yellow;
-    margin: 210px 220px;
+    margin: 210px 1100px;
     visibility: hidden;
 }
 
