@@ -1,0 +1,269 @@
+body{
+    background-image: url("maxresdefault.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#seuMadruga{
+    margin: 200px 0px 0px 550px;
+    position: absolute;
+    animation: aura1 1s ease-in-out alternate;
+    -webkit-animation: aura1 1s infinite ease-in-out alternate;
+}
+@keyframes seuMadruga{
+    0%{
+        transform: translateY(-40px);
+    }
+    100%{
+        transform: translateY(40px);
+    }
+
+}
+
+#aura1{
+    margin: -240px 0px 0px 275px;
+    height: 950px;
+    width: 800px;
+    position: absolute;
+    visibility: hidden;
+    animation: aura1 1s ease-in-out alternate;
+    -webkit-animation: aura1 1s infinite ease-in-out alternate;
+}
+
+#baseFP{
+    font-size: 25px;
+    position: absolute;
+    margin-top: 10px;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    color: black;
+    background-color: gray;
+    border-style: groove;
+    border-color: blueviolet;
+    
+}
+@keyframes aura1{
+    0%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(50px);
+    }
+
+}
+
+#baseFP:hover{
+    transition: 200ms;
+    box-shadow: 3px 3px 3px 3px;
+}
+
+#transformar{
+    font-size: 25px;
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    color:green;
+    background-image: url("seu madruga.jpg");
+    background-size: cover;
+    border-style: groove;
+    border-color: blueviolet;
+    margin-top: 210px;
+}
+#transformar:hover{
+
+    transition: 200ms;
+    box-shadow: 3px 3px 3px 3px;
+}
+
+#destransformar{
+    font-size: 25px;
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    color:blue;
+    background-image: url("Screenshot_4.png");
+    background-size: cover;
+    border-style: groove;
+    border-color: blueviolet;
+    margin-top: 410px;
+    visibility: hidden;
+}
+
+#destransformar:hover{
+    transition: 200ms;
+    box-shadow: 3px 3px 3px 3px;
+}
+
+#mensagem{
+    font-size: 25px;
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    color:red;
+    background-image: url("download.jpg");
+    background-size: cover;
+    border-style: groove;
+    border-color: blueviolet;
+    margin-top: 610px;
+}
+
+#mensagem:hover{
+    transition: 200ms;
+    box-shadow: 3px 3px 3px 3px;
+}
+
+#msgSsj{
+    font-size: 25px;
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    color:red;
+    background-image: url("Screenshot_2.png");
+    background-size: cover;
+    border-style: groove;
+    border-color: yellow;
+    margin-top: 610px;
+    visibility: hidden;
+}
+
+#msgSsj:hover{
+    transition: 200ms;
+    box-shadow: 3px 3px 3px 3px;
+}
+
+#ssjAura{
+    margin: -120px 0px 0px 425px;
+    height: 650px;
+    width: 500px;
+    position: absolute;
+    visibility: visible;
+    animation: aura1 1s ease-in-out alternate;
+    -webkit-animation: aura1 1s infinite ease-in-out alternate;
+    visibility: hidden;
+}
+
+@keyframes ssjAura{
+    0%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(50px);
+    }
+
+}
+
+#seuMadrugaTF{
+    margin: 240px 0px 0px 560px;
+    position: absolute;
+    animation: aura1 1s ease-in-out alternate;
+    -webkit-animation: aura1 1s infinite ease-in-out alternate;
+    z-index: 1;
+    visibility: hidden;
+}
+@keyframes seuMadrugaTF{
+    0%{
+        transform: translateY(-40px);
+    }
+    100%{
+        transform: translateY(40px);
+    }
+
+}
+
+#ssjHair{
+    margin: 170px 0px 0px 610px;
+    position: absolute;
+    animation: aura1 1s ease-in-out alternate;
+    -webkit-animation: aura1 1s infinite ease-in-out alternate;
+    z-index: 1;
+    height: 150px;
+    width: 120px;
+    visibility: hidden;
+}
+
+#ssj2Aura{
+    margin: 170px 0px 0px 335px;
+    margin-top: -5%;
+    position: absolute;
+    animation: aura1 1s ease-in-out alternate;
+    -webkit-animation: aura1 1s infinite ease-in-out alternate;
+    z-index: 1;
+    height: 700px;
+    width: 700px;
+    visibility: hidden;
+}
+
+#transformar1{
+    font-size: 25px;
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    color:green;
+    background-image: url("Screenshot_5.png");
+    background-size: cover;
+    border-style: groove;
+    border-color: blueviolet;
+    margin-top: 210px;
+    visibility: hidden;
+}
+
+#TFssj2{
+    visibility: hidden;
+}
+
+#transformar1:hover{
+
+    transition: 200ms;
+    box-shadow: 3px 3px 3px 3px;
+}
+
+#fraseSsj2{
+    font-size: 25px;
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    color:red;
+    background-image: url("Screenshot_6.png");
+    background-size: cover;
+    border-style: groove;
+    border-color: yellow;
+    margin-top: 610px;
+    visibility: hidden;
+}
+
+#fraseSsj2:hover{
+    transition: 200ms;
+    box-shadow: 3px 3px 3px 3px;
+}
+
+#musicaPica{
+    font-size: 25px;
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    color:brown;
+    background-image: url("hqdefault-1_5n7e.jpg");
+    background-size: cover;
+    border-style: groove;
+    border-color: greenyellow;
+    margin: 10px 0px 0px 1480px
+}
+
+#violao{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+
+#musicaPica:hover{
+    transition: 200ms;
+    box-shadow: 3px 3px 3px 3px;
+}
