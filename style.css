@@ -267,3 +267,141 @@ body{
     transition: 200ms;
     box-shadow: 3px 3px 3px 3px;
 }
+
+#madrugassj3{
+    margin: 230px 0px 0px 255px;
+    position: absolute;
+    animation: aura1 1s ease-in-out alternate;
+    -webkit-animation: aura1 1s infinite ease-in-out alternate;
+    visibility: hidden;
+
+}
+
+#transformar2{
+    font-size: 25px;
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    color:green;
+    background-image: url("transformmadruga.jpg");
+    background-size: cover;
+    border-style: groove;
+    border-color: blueviolet;
+    margin-top: 210px;
+    visibility: hidden;
+}
+
+#transformar2:hover{
+    transition: 200ms;
+    box-shadow: 3px 3px 3px 3px;
+}
+
+#fraseSsj3{
+    font-size: 25px;
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    color:red;
+    background-image: url("frasessj3.png");
+    background-size: cover;
+    border-style: groove;
+    border-color: yellow;
+    margin: 210px 1100px;
+    visibility: hidden;
+}
+
+#fraseSsj3:hover{
+    transition: 200ms;
+    box-shadow: 3px 3px 3px 3px;
+}
+
+#madrugassj3fusao{
+    margin: 230px 0px 0px -20px;
+    position: absolute;
+    visibility: hidden;
+    animation: aura1 1s ease-in-out alternate;
+    -webkit-animation: aura1 1s infinite ease-in-out alternate;
+    
+}
+#madrugafundir{
+    margin: 230px 0px 0px -10px;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    visibility: hidden;
+    animation: aura1 1s ease-in-out alternate;
+    -webkit-animation: aura1 1s infinite ease-in alternate;
+    
+}
+
+#madruves{
+    margin: 150px 0px 0px 20px;
+    position: absolute;
+    
+    visibility: hidden;
+    z-index: 1;
+    animation: aura1 1s ease-in-out alternate;
+    -webkit-animation: aura1 1s infinite ease-in-out alternate;
+}
+
+#chavesfundir{
+    margin: 160px 0px 0px 350px;
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    visibility: hidden;
+    animation: aura1 1s ease-out alternate;
+    -webkit-animation: aura1 1s infinite ease-in-out alternate;
+
+}
+
+#fusao{
+    font-size: 25px;
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    color:red;
+    background-image: url("Screenshot_7.png");
+    background-position: 60%;
+    border-style: groove;
+    border-color: yellowgreen;
+    margin: 410px 1100px;
+    visibility: hidden;
+}
+
+#fusao:hover{
+    transition: 200ms;
+    box-shadow: 3px 3px 3px 3px;
+}
+
+#efeito{
+    margin: 150px 0px 0px 100px;
+    position: absolute;
+    visibility: hidden;
+}
+
+#madruveshair{
+    margin: 150px 0px 0px 300px;
+    position: absolute;
+    width: 120px;
+    height: 70px;
+    z-index: 2;
+    animation: aura1 1s ease-in-out alternate;
+    -webkit-animation: aura1 1s infinite ease-in-out alternate;
+    visibility: hidden;
+
+}
+
+#madruvesaura{
+    margin: -100px 0px 0px 150px;
+    position: absolute;
+    width: 400px;
+    height: 800px;
+    z-index: 3;
+    animation: aura1 1s ease-in-out alternate;
+    -webkit-animation: aura1 1s infinite ease-in-out alternate;
+    visibility: hidden;
+}
