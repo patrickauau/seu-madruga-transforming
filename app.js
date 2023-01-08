@@ -273,4 +273,4 @@ function luta(){
         let musicaPica = document.getElementById("musicaPica").style.visibility = "visible"
 
     }, 106000);
-}
+} 
