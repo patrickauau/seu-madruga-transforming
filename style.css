@@ -20,12 +20,42 @@ body{
 
 }
 
+#madrugassjg{
+    margin: 200px 0px 0px 40px;
+    position: absolute;
+    visibility: hidden;
+    z-index: -2;
+    animation: aura1 1s ease-in-out alternate;
+    -webkit-animation: aura1 1s infinite ease-in-out alternate;
+}
+
+@keyframes madrugassjg{
+    0%{
+        transform: translateY(-40px);
+    }
+    100%{
+        transform: translateY(40px);
+    }
+
+}
+
 #aura1{
     margin: -240px 0px 0px 275px;
     height: 950px;
     width: 800px;
     position: absolute;
     visibility: hidden;
+    animation: aura1 1s ease-in-out alternate;
+    -webkit-animation: aura1 1s infinite ease-in-out alternate;
+}
+
+#ssjgaura{
+    margin: 60px 0px 0px -250px;
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    visibility: hidden;
+    z-index: -3;
     animation: aura1 1s ease-in-out alternate;
     -webkit-animation: aura1 1s infinite ease-in-out alternate;
 }
@@ -141,10 +171,20 @@ body{
     height: 650px;
     width: 500px;
     position: absolute;
-    visibility: visible;
     animation: aura1 1s ease-in-out alternate;
     -webkit-animation: aura1 1s infinite ease-in-out alternate;
     visibility: hidden;
+}
+
+#ssjAura1{
+    margin: -120px 0px 0px -140px;
+    height: 650px;
+    width: 500px;
+    position: absolute;
+    visibility: hidden;
+    animation: aura1 1s ease-in-out alternate;
+    -webkit-animation: aura1 1s infinite ease-in-out alternate;
+    z-index: -5;
 }
 
 @keyframes ssjAura{
@@ -165,6 +205,16 @@ body{
     z-index: 1;
     visibility: hidden;
 }
+
+#seuMadrugaTF1{
+    margin: 240px 0px 0px 0px;
+    position: absolute;
+    animation: aura1 1s ease-in-out alternate;
+    -webkit-animation: aura1 1s infinite ease-in-out alternate;
+    z-index: -4;
+    visibility: hidden;
+}
+
 @keyframes seuMadrugaTF{
     0%{
         transform: translateY(-40px);
@@ -184,6 +234,18 @@ body{
     height: 150px;
     width: 120px;
     visibility: hidden;
+}
+
+#ssjHair1{
+    margin: 170px 0px 0px 50px;
+    position: absolute;
+    animation: aura1 1s ease-in-out alternate;
+    -webkit-animation: aura1 1s infinite ease-in-out alternate;
+    z-index: -3;
+    height: 150px;
+    width: 120px;
+    visibility: hidden;
+    
 }
 
 #ssj2Aura{
@@ -377,6 +439,28 @@ body{
     box-shadow: 3px 3px 3px 3px;
 }
 
+#lutar{
+    font-size: 25px;
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    color:red;
+    background-image: url("maxresdefault.jpg");
+    background-size: 150%;
+    background-position-x: -40px;
+    border-style: groove;
+    border-color: yellowgreen;
+    margin: 410px 1100px;
+    visibility: hidden;
+
+}
+
+#lutar:hover{
+    transition: 200ms;
+    box-shadow: 3px 3px 3px 3px;
+}
+
 #efeito{
     margin: 150px 0px 0px 100px;
     position: absolute;
@@ -404,4 +488,100 @@ body{
     animation: aura1 1s ease-in-out alternate;
     -webkit-animation: aura1 1s infinite ease-in-out alternate;
     visibility: hidden;
+}
+
+#transformar3{
+    font-size: 25px;
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    color:green;
+    background-image: url("ssjg.png");
+    background-size: cover;
+    border-style: groove;
+    border-color: blueviolet;
+    margin-top: 210px;
+    visibility: hidden;
+}
+
+#transformar3:hover{
+    transition: 200ms;
+    box-shadow: 3px 3px 3px 3px;
+}
+
+#ritual{
+    border-radius: 10px;
+    border: 10px inset gray;
+    justify-content: center;
+    position: absolute;
+    z-index: -1;
+    margin-top: 3%;
+    visibility: hidden;
+    
+}
+
+#destruicao{
+    border-radius: 10px;
+    border: 10px inset gray;
+    justify-content: center;
+    position: absolute;
+    z-index: -1;
+    margin-top: 3%;
+    visibility: hidden;
+}
+
+
+#fraseSsjg{
+    font-size: 25px;
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    color:red;
+    background-image: url("ssjgfrase.jpg");
+    background-size: cover;
+    border-style: groove;
+    border-color: yellow;
+    margin: 210px 1100px;
+    visibility: hidden;
+}
+
+#fraseSsjg:hover{
+    transition: 200ms;
+    box-shadow: 3px 3px 3px 3px;
+}
+
+#bills{
+    margin: 150px 0px 0px 450px;
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    z-index: -2;
+    visibility: hidden;
+    animation: aura1 1s ease-in-out alternate;
+    -webkit-animation: aura1 1s infinite ease-in-out alternate;
+
+}
+
+#jachega1{
+    font-size: 25px;
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    color:red;
+    background-image: url("Screenshot_10.png");
+    background-size: 70%;
+    background-position-x: 35px;
+    border-style: groove;
+    border-color: yellow;
+    margin: 210px 1100px;
+    visibility: hidden;
+}
+
+#jachega1:hover{
+    transition: 200ms;
+    box-shadow: 3px 3px 3px 3px;
+
 }
