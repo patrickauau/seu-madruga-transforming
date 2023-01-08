@@ -58,6 +58,7 @@ function destransform(){
     let transformar1 = document.getElementById("transformar1").style.visibility = "hidden"
     let transformar2 = document.getElementById("transformar2").style.visibility = "hidden"
     let musicaPica = document.getElementById("musicaPica").style.visibility = "visible"
+    let jachega1 = document.getElementById("jachega1").style.visibility = "hidden"
     
     
     setTimeout(seuMadruga2=>{
@@ -82,7 +83,6 @@ function destransform(){
         let ssjAura1 = document.getElementById("ssjAura1").style.visibility = "hidden"
         let bills = document.getElementById("bills").style.visibility = "hidden"
         let lutar = document.getElementById("lutar").style.visibility = "hidden"
-        let jachega1 = document.getElementById("jachega1").style.visibility = "hidden"
 
 
 
