@@ -82,6 +82,7 @@ function destransform(){
         let ssjAura1 = document.getElementById("ssjAura1").style.visibility = "hidden"
         let bills = document.getElementById("bills").style.visibility = "hidden"
         let lutar = document.getElementById("lutar").style.visibility = "hidden"
+        let jachega1 = document.getElementById("jachega1").style.visibility = "hidden"
 
 
 
