@@ -87,6 +87,7 @@ body{
     background-color: gray;
     border-style: groove;
     border-color: orangered;
+    z-index: 10;
 }
 
 #pararmusica:hover{
