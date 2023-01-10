@@ -2,6 +2,7 @@ body{
     background-image: url("maxresdefault.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: rgba(0, 50, 220, 0.75) 
 }
 
 #seuMadruga{
@@ -73,6 +74,26 @@ body{
     border-color: blueviolet;
     
 }
+
+#pararmusica{
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    margin: 10px 575px;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    color: black;
+    background-color: gray;
+    border-style: groove;
+    border-color: orangered;
+}
+
+#pararmusica:hover{
+    transition: 200ms;
+    box-shadow: 3px 3px 3px 3px;
+}
+
 @keyframes aura1{
     0%{
         transform: translateY(-50px);
@@ -176,14 +197,24 @@ body{
     visibility: hidden;
 }
 
-#ssjAura1{
+.posicaoaura{
+    margin: -120px 0px 0px 50px;
+    position: absolute;
+    z-index: -5;
+}
+
+.posicaomadruga{
+    margin: 180px 0px 0px 240px;
+    position: absolute;
+
+}
+
+.ssjAura1{
     margin: -120px 0px 0px -140px;
     height: 650px;
     width: 500px;
     position: absolute;
     visibility: hidden;
-    animation: aura1 1s ease-in-out alternate;
-    -webkit-animation: aura1 1s infinite ease-in-out alternate;
     z-index: -5;
 }
 
@@ -206,13 +237,19 @@ body{
     visibility: hidden;
 }
 
-#seuMadrugaTF1{
-    margin: 240px 0px 0px 0px;
-    position: absolute;
-    animation: aura1 1s ease-in-out alternate;
-    -webkit-animation: aura1 1s infinite ease-in-out alternate;
+.seuMadrugaTF1{
     z-index: -4;
     visibility: hidden;
+    position: absolute;
+}
+
+.posicaomadruga1{
+    margin: 240px 0px 0px 0px;
+}
+
+.voando{
+    animation: aura1 1s ease-in-out alternate;
+    -webkit-animation: aura1 1s infinite ease-in-out alternate;
 }
 
 @keyframes seuMadrugaTF{
@@ -236,11 +273,37 @@ body{
     visibility: hidden;
 }
 
-#ssjHair1{
+.posicaocabelo{
+    margin: 110px 0px 0px 290px;
+    position: absolute;
+    z-index: -4;
+}
+
+#escutou{
+    font-size: 25px;
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    color:violet;
+    background-image: url("Screenshot_14.png");
+    background-size: cover;
+    border-style: groove;
+    border-color: blue;
+    margin: 210px 1100px;
+    visibility: hidden;
+}
+
+#escutou:hover{
+    transition: 200ms;
+    box-shadow: 3px 3px 3px 3px;
+
+}
+
+
+.ssjHair1{
     margin: 170px 0px 0px 50px;
     position: absolute;
-    animation: aura1 1s ease-in-out alternate;
-    -webkit-animation: aura1 1s infinite ease-in-out alternate;
     z-index: -3;
     height: 150px;
     width: 120px;
@@ -451,8 +514,9 @@ body{
     background-position-x: -40px;
     border-style: groove;
     border-color: yellowgreen;
-    margin: 410px 1100px;
+    margin: 400px 1100px;
     visibility: hidden;
+    z-index: -1;
 
 }
 
@@ -522,12 +586,12 @@ body{
 }
 
 #destruicao{
+    margin: 3% 25px;
     border-radius: 10px;
     border: 10px inset gray;
     justify-content: center;
     position: absolute;
     z-index: -1;
-    margin-top: 3%;
     visibility: hidden;
 }
 
@@ -585,3 +649,101 @@ body{
     box-shadow: 3px 3px 3px 3px;
 
 } 
+
+.ssjcolor{
+    margin: 170px 0px 0px 50px;
+    position: absolute;
+    z-index: -3;
+    height: 150px;
+    width: 120px;
+    visibility: hidden;
+}
+
+.change{
+    animation: icc 7s;
+}
+
+@keyframes icc{
+    0%{
+        filter: hue-rotate (1deg);
+    }
+
+    50%{
+        filter: hue-rotate(360deg);
+    }
+
+    100%{
+        filter: hue-rotate(140deg);
+    }
+}
+
+#botaotransformassjb{
+    font-size: 25px;
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    color:green;
+    background-image: url("Screenshot_12.png");
+    background-size: cover;
+    border-style: groove;
+    border-color: blueviolet;
+    margin-top: 210px;
+    visibility: hidden;
+}
+
+#botaotransformassjb:hover{
+    transition: 200ms;
+    box-shadow: 3px 3px 3px 3px;
+}
+
+.ssjb{
+    height: 800px;
+    width: 600px;
+    margin: -75px -200px;
+    position: absolute;
+    visibility: hidden;
+    z-index: -5;
+}
+.aurassjb{
+    animation: icc1 7s;
+}
+
+@keyframes icc1{
+    0%{
+        filter: hue-rotate (1deg);
+    }
+
+    50%{
+        filter: hue-rotate(360deg);
+    }
+
+    100%{
+        filter: hue-rotate(140deg);
+    }
+}
+
+.auradossjb{
+    position: absolute;
+    visibility: hidden;
+    z-index: -5;
+    height: 800px;
+    width: 600px;
+
+}
+
+.posicaoaura1{
+    margin: -75px -200px;
+}
+
+.ssjbcabelo{
+    position: absolute;
+    z-index: -3;
+    height: 150px;
+    width: 120px;
+    visibility: hidden;
+}
+
+.posicaocabelo1{
+    margin: 170px 0px 0px 50px;
+}

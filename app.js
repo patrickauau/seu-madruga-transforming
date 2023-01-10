@@ -1,3 +1,16 @@
+function musicapara(){
+    let musica = document.getElementById("musica")
+    musica.pause()
+    musica.currentTime = 0;
+    let fusaomusica = document.getElementById("fusaomusica")
+    fusaomusica.pause()
+    fusaomusica.currentTime = 0;
+    let ssjbmusica = document.getElementById("ssjbmusica")
+    ssjbmusica.pause()
+    ssjbmusica.currentTime = 0;
+
+}
+
 function message(){
     let galinha = document.getElementById("galinha").play()
 
@@ -24,6 +37,8 @@ function Musicao(){
     musica.currentTime = 0;
     let fusaomusica = document.getElementById("fusaomusica")
     fusaomusica.pause()
+    let ssjbmusica = document.getElementById("ssjbmusica")
+    ssjbmusica.pause()
 
 }
 
@@ -78,11 +93,29 @@ function destransform(){
         let fraseSsj3 = document.getElementById("fraseSsj3").style.visibility = "hidden"
         let madrugassjg = document.getElementById("madrugassjg").style.visibility = "hidden"
         let ssjgaura = document.getElementById("ssjgaura").style.visibility = "hidden"
-        let seuMadrugaTF1 = document.getElementById("seuMadrugaTF1").style.visibility = "hidden"
-        let ssjHair1 = document.getElementById("ssjHair1").style.visibility = "hidden"
-        let ssjAura1 = document.getElementById("ssjAura1").style.visibility = "hidden"
+        const ssjHair1 = document.querySelector(".ssjHair1")
+        const ssjAura1 = document.querySelector(".ssjAura1")
         let bills = document.getElementById("bills").style.visibility = "hidden"
         let lutar = document.getElementById("lutar").style.visibility = "hidden"
+        let escutou = document.getElementById("escutou").style.visibility = "hidden"
+        const ssjbcabelo = document.querySelector(".ssjbcabelo")
+        const auradossjb = document.querySelector(".auradossjb")
+        const seuMadrugaTF1 = document.querySelector(".seuMadrugaTF1");
+        seuMadrugaTF1.style.visibility = "hidden"
+        auradossjb.style.visibility = "hidden"
+        ssjbcabelo.style.visibility = "hidden"
+        ssjHair1.style.visibility = "hidden"
+        ssjAura1.style.visibility = "hidden"
+
+        ssjbcabelo.classList.remove('voando');
+        auradossjb.classList.remove('voando');
+        seuMadrugaTF1.classList.remove('voando');
+        ssjbcabelo.classList.remove('posicaocabelo');
+        auradossjb.classList.remove('posicaoaura');
+        seuMadrugaTF1.classList.remove('posicaomadruga');
+        ssjbcabelo.classList.remove('posicaocabelo1');
+        auradossjb.classList.remove('posicaoaura1');
+        seuMadrugaTF1.classList.remove('posicaomadruga1');
 
 
 
@@ -175,6 +208,8 @@ function fundir(){
     let musicaPica = document.getElementById("musicaPica").style.visibility = "hidden"
     let musica = document.getElementById("musica")
     musica.pause()
+    let ssjbmusica = document.getElementById("ssjbmusica")
+    ssjbmusica.pause()
 
     let fusaomusica = document.getElementById("fusaomusica")
     fusaomusica.play()
@@ -265,13 +300,111 @@ function luta(){
     setTimeout(parar_luta => {
         destruicao.style.visibility = "hidden"
         destruicao.pause()
-        let seuMadrugaTF1 = document.getElementById("seuMadrugaTF1").style.visibility = "visible"
-        let ssjHair1 = document.getElementById("ssjHair1").style.visibility = "visible"
-        let ssjAura1 = document.getElementById("ssjAura1").style.visibility = "visible"
+        
+        const seuMadrugaTF1 = document.querySelector(".seuMadrugaTF1")
+        const ssjHair1 = document.querySelector(".ssjHair1")
+        const ssjAura1 = document.querySelector(".ssjAura1")
+        seuMadrugaTF1.style.visibility = "visible"
+        ssjHair1.style.visibility = "visible"
+        ssjAura1.style.visibility = "visible"
+        seuMadrugaTF1.classList.add('posicaomadruga1')
+        seuMadrugaTF1.classList.add('voando')
+        ssjHair1.classList.add('voando')
+        ssjAura1.classList.add('voando')
+
+        
         let bills = document.getElementById("bills").style.visibility = "visible"
         let jachega1 = document.getElementById("jachega1").style.visibility = "visible"
         let destransformar = document.getElementById("destransformar").style.visibility = "visible"
         let musicaPica = document.getElementById("musicaPica").style.visibility = "visible"
+        let botaotransformassjb = document.getElementById("botaotransformassjb").style.visibility = "visible"
 
     }, 106000);
 } 
+
+function mudarcor(){
+    
+    const seuMadrugaTF1 = document.querySelector(".seuMadrugaTF1");
+    seuMadrugaTF1.classList.remove('voando');
+    let ssjbmusica = document.getElementById("ssjbmusica").play()
+    ssjbmusica.currentTime = 0;
+    let fusaomusica = document.getElementById("fusaomusica")
+    fusaomusica.pause()
+    let musica = document.getElementById("musica")
+    musica.pause()
+    
+    const color1 = document.querySelector('.ssjcolor');
+    const ssjb1 = document.querySelector('.ssjb');
+    ssjb1.style.visibility = "visible"
+    color1.style.visibility = "visible"
+    const ssjHair1 = document.querySelector(".ssjHair1")
+    const ssjAura1 = document.querySelector(".ssjAura1")
+    ssjHair1.style.visibility = "hidden"
+    ssjAura1.style.visibility = "hidden"
+    ssjHair1.classList.remove ('voando')
+    ssjAura1.classList.remove ('voando')
+    let destransformar = document.getElementById("destransformar").style.visibility = "hidden"
+    let musicaPica = document.getElementById("musicaPica").style.visibility = "hidden"
+    let jachega1 = document.getElementById("jachega1").style.visibility = "hidden"
+    let botaotransformassjb = document.getElementById("botaotransformassjb").style.visibility = "hidden"
+
+
+    
+    setTimeout(() => {
+    ssjb1.classList.add('aurassjb');
+    color1.classList.add('change');
+    }, 10000);
+
+    setTimeout(() => {
+        ssjb1.classList.remove('aurassjb');
+        color1.classList.remove('change');
+        ssjb1.style.visibility = "hidden"
+        color1.style.visibility = "hidden"
+        const ssjbcabelo = document.querySelector(".ssjbcabelo")
+        ssjbcabelo.style.visibility = "visible"
+        ssjbcabelo.classList.add('posicaocabelo1')
+
+    }, 17000);
+
+    setTimeout(() => {
+        let audioBaseFP = document.getElementById("audioBaseFP").play()
+    }, 18300);
+
+    setTimeout(() => {
+        const auradossjb = document.querySelector(".auradossjb")
+        auradossjb.style.visibility = "visible"
+        auradossjb.classList.add('posicaoaura1')
+        let chapeuzinho = document.getElementById("chapeuzinho").play()
+    }, 20000);
+
+    setTimeout(() => {
+        const ssjbcabelo = document.querySelector(".ssjbcabelo")
+        const auradossjb = document.querySelector(".auradossjb")
+        ssjbcabelo.classList.add('voando');
+        auradossjb.classList.add('voando');
+        seuMadrugaTF1.classList.add('voando');
+    }, 22000);
+
+    setTimeout(() => {
+        let bills = document.getElementById("bills").style.visibility = "hidden"
+        let tp = document.getElementById("tp").play()
+        const ssjbcabelo = document.querySelector(".ssjbcabelo")
+        const auradossjb = document.querySelector(".auradossjb")
+        const seuMadrugaTF1 = document.querySelector(".seuMadrugaTF1");
+        ssjbcabelo.classList.remove('posicaocabelo1');
+        auradossjb.classList.remove('posicaoaura1');
+        seuMadrugaTF1.classList.remove('posicaomadruga1');
+        ssjbcabelo.classList.add('posicaocabelo');
+        auradossjb.classList.add('posicaoaura');
+        seuMadrugaTF1.classList.add('posicaomadruga');
+        let escutou = document.getElementById("escutou").style.visibility = "visible"
+        let destransformar = document.getElementById("destransformar").style.visibility = "visible"
+        let musicaPica = document.getElementById("musicaPica").style.visibility = "visible"
+
+
+    }, 33000);
+}
+
+function frasessjb(){
+    let escutoubem = document.getElementById("escutoubem").play()
+}
